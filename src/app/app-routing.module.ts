@@ -7,7 +7,7 @@ const routes: Routes = [
     loadChildren: () => import('./template/template.module').then(m => m.TemplateModule),
   },
   { 
-    path:'rective',
+    path:'reactive',
     loadChildren: () => import('./reactive/reactive.module').then(m => m.ReactiveModule),
   },
   { 
